@@ -8,7 +8,7 @@ export let id;
 
 <div class="dessert-card">
   <h2>{name}</h2>
-  <p class="dessert-price">$ {price}</p>
+  <p class="dessert-price">₱ {price}</p>
   <p class="product-category">Category: {category}</p>
   <button 
   class="btn add-to-cart-btn" on:click={()=>$myCart=[...$myCart,{id,name,price}]}>Add to cart
