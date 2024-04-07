@@ -2,7 +2,7 @@
     import { writableArray } from '../store/index'
     import { onMount } from 'svelte';
 
-    let SHEET_ID = '1mlhZiHP20-LEDnhyFk5WJkBmFJJ0LFh-QHl1trZC-pI'; // Replace with your sheet ID
+    let SHEET_ID = '1mlhZiHP20-LEDnhyFk5WJkBmFJJ0LFh-QHl1trZC-pI';
     let SHEET_TITLE = 'forDessertPage';
     let SHEET_RANGE = 'A1:D99';
     let FULL_URL = ('https://docs.google.com/spreadsheets/d/' + SHEET_ID + '/gviz/tq?sheet=' +SHEET_TITLE + '&range=' +SHEET_RANGE);
