@@ -16,7 +16,7 @@
   {:else}
   <p> </p>
   {/if}
-  <h1 class="text-center text-3xl my-10 text-white">Desserts Page</h1>
+  <h1 class="text-center text-3xl my-10 text-white">Jei's Store</h1>
   
   <div class="grid grid-cols-2 md:grid-cols-3 flex-wrap items-center">
   {#each $writableArray as data}
