@@ -12,7 +12,7 @@
         .then(res => res.text())
         .then(rep=>{
           let data = JSON.parse(rep.substr(47).slice(0,-2));
-          let length = data.table.rows.length-1;
+          let length = data.table.rows.length;
           for( let i = 0; i<length;i++){
             $writableArray = [...$writableArray, {'id': data.table.rows[i].c[0].v, 'name':data.table.rows[i].c[1].v,'price': data.table.rows[i].c[2].v, 'category':data.table.rows[i].c[3].v}]
             console.log(i);
